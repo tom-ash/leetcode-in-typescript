@@ -1,0 +1,17 @@
+{
+  "name": "leetcode-in-typescript",
+  "version": "1.0.0",
+  "description": "LeetCode in TypeScript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "try": "tsx"
+  },
+  "author": "Tomasz Bogusz",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.1"
+  },
+  "dependencies": {
+    "tsx": "^4.19.2"
+  }
+}
