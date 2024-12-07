@@ -9,7 +9,7 @@ export function slidingWindow(numbers: number[], windowSize: number): any {
 
   // Window sliding.
   for (let windowEnd = windowSize; windowEnd <= numbers.length; windowEnd++) {
-    const windowStart = windowEnd - windowSize
+    const windowStart = windowEnd - windowSize;
     window = numbers.slice(windowStart, windowEnd);
 
     console.log(
